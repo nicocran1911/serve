@@ -10,8 +10,8 @@ const httpServer = http.createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    // origin: "http://localhost:3000",
-    origin: "https://phenomenal-belekoy-747b59.netlify.app",
+    origin: "http://localhost:3000",
+    // origin: "https://phenomenal-belekoy-747b59.netlify.app",
     methods: ["GET", "POST"]
   }
 });
